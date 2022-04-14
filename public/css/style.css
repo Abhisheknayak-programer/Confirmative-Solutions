@@ -10,14 +10,14 @@
 /***************************/
 /* GOOGLE FONTS IMPORTED */
 /***************************/
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&family=Playfair+Display:ital,wght@1,500;1,600&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&family=Playfair+Display:ital,wght@1,500;1,600&family=Quicksand:wght@400;500;600;700&display=swap");
 /***************************/
 /* VARIABLES DECLARTAIONS */
 /***************************/
 :root {
   --font-1: "Mulish", sans-serif;
   --font-2: "Playfair Display", serif;
+  --font-3: "Quicksand", sans-serif;
   --btn-primary-color: #ffcccc;
   --btn-primary-color-dark: #ffb8b8;
   --nude-color: #ff8787;
@@ -28,6 +28,7 @@
   --body-color: #f6f6f6;
   --shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.1);
   --white-color: #fff;
+  --para-color: #888;
   --max-padding: 6rem;
   --mid-padding: 4rem;
   --low-padding: 2rem;
@@ -281,7 +282,7 @@ a {
 /* THIRD SECTION CSS */
 /************************/
 .third__section {
-  padding-bottom: var(--max-padding);
+  padding: var(--max-padding) 0;
 }
 
 .third_sec_col h4 {
@@ -319,26 +320,196 @@ a {
   font-weight: 600;
 }
 
-/*********************************/
-/* THIRD SECTION MEDIA QUERIES */
-/********************************/
-@media (max-width: 992px) {
-  .third_sec_card {
-    margin-bottom: 4rem;
-  }
-  .third_sec_card:last-child {
-    margin-bottom: 0;
-  }
-  .third_sec_col h4 {
-    font-size: 2.4rem;
-  }
+/************************/
+/* FOURTH SECTION CSS */
+/************************/
+.fourth__section {
+  font-family: var(--font-3);
+  overflow: hidden;
+  padding-top: 4rem;
 }
 
-@media (max-width: 576px) {
-  .third__section {
-    margin: 0 3rem;
-  }
-  .third_sec_col h4 {
-    font-size: 2rem;
-  }
+.fourth__section .row {
+  position: relative;
+  top: -8vh;
 }
+
+.fourth__section .more____up {
+  top: -12vh;
+}
+
+.fourth_sec_image_box {
+  overflow: hidden;
+}
+
+.fourth_sec_img {
+  position: relative;
+  top: -10%;
+  width: 80%;
+}
+
+.fourth_sec_text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.fourth_sec_text h2 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.fourth_sec_text p {
+  font-size: 2rem;
+  font-family: var(--font-1);
+  font-weight: 500;
+  color: var(--para-color);
+}
+
+.fourth_sec_text .sec_btn_on_white {
+  font-weight: 700;
+}
+
+/************************/
+/* FIFTH SECTION CSS */
+/************************/
+.fifth__section {
+  padding: var(--max-padding) 0;
+}
+
+.fifth__section .team_card .img__bx img {
+  width: 100px;
+  height: 100px;
+}
+
+.star_icon {
+  font-size: 2rem;
+  fill: var(--warm-color);
+}
+
+.fifth__section .team_card .text__cnt {
+  padding: 0 2rem;
+}
+
+.team_card {
+  padding: 4rem;
+  font-family: var(--font-3);
+}
+
+.team_card_manager {
+  padding: 4rem 1rem;
+  width: 100%;
+  box-shadow: var(--shadow);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 1rem;
+}
+
+.team_card .img__bx img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.team_card .text__cnt {
+  text-align: center;
+}
+
+.team_card .text__cnt h4 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.team_card .text__cnt p {
+  font-size: 1.6rem;
+}
+
+/************************/
+/* FOOTER SECTION CSS */
+/************************/
+.footer {
+  background-color: var(--nude-color);
+  color: var(--white-color);
+  padding: 4rem 0;
+  padding-bottom: 1rem;
+}
+
+.footer .row {
+  padding-bottom: 1.5rem;
+}
+
+.footer_logo_box img {
+  width: 80px;
+  margin-bottom: 2rem;
+}
+
+.company__main_details h2 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.company__main_details a {
+  font-size: 1.6rem;
+  color: var(--white-color);
+}
+
+.fontAwesomeIcon {
+  font-size: 3rem !important;
+}
+
+.footer_col_1 h3 {
+  font-size: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.footer_inner_col__1__items {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.footer_inner_col__1__items a {
+  color: var(--white-color);
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.All_social_media_box {
+  display: flex;
+  gap: 2rem;
+}
+
+.All_social_media_box span a {
+  color: var(--white-color);
+}
+
+.copyright_paragraph {
+  font-size: 1.6rem;
+  text-align: center;
+  color: var(--white-color);
+}
+
+/************************/
+/* SIXTH SECTION CSS */
+/************************/
+
+/*********************************/
+/* SIXTH SECTION MEDIA QUERIES */
+/********************************/
+
+/************************/
+/* SEVENTH SECTION CSS */
+/************************/
+
+/*********************************/
+/* SEVENTH SECTION MEDIA QUERIES */
+/********************************/

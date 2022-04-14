@@ -7,13 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Confirmative Solutions</title>
 
-    <!-- CUSTOM CSS STYLE -->
-    <link rel="stylesheet" href="./public/css/style.css">
-    <link rel="stylesheet" href="./public/css/media.css">
+    <!-- OWL CAROUSEL CSS -->
+    <link rel="stylesheet" href="./public/OwlCarousel/css/owl.carousel.css">
+    <link rel="stylesheet" href="./public/OwlCarousel/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./public/OwlCarousel/css/owl.theme.green.css">
+
+    <!-- ANIMATION CSS -->
+    <link rel="stylesheet" href="./public/Animations/animate.css">
 
     <!-- BOOTSTRAP CUSTOM CSS LINK -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- OWL CAROUSEL JS -->
+    <script src="./public/jquery.min.js"></script>
+    <script src="./public/OwlCarousel/js/owl.carousel.min.js"></script>
+
+    <!-- ANIMATION JS -->
+    <script src="./public/Animations/wow.min.js"></script>
+
+    <!-- CUSTOM CSS STYLE -->
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" href="./public/css/media.css">
 </head>
 
 <body>
@@ -24,7 +39,9 @@
                 <span>
                     <ion-icon name="location"></ion-icon>
                 </span>
-                <a href="#">Dwarka, New Delhi</a>
+                <a
+                    href="https://www.google.co.in/maps/search/Reg.+Office+-+B-53+Basement,+New+Krishna+Park+New+Delhi+110018/@28.6297156,77.0736154,17z">New
+                    Krishna Park, New Delhi</a>
             </div>
 
 
@@ -32,7 +49,7 @@
                 <span>
                     <ion-icon name="call"></ion-icon>
                 </span>
-                <a href="#">011 - 40534013</a>
+                <a href="tel:+91 9211064418">9211064418</a>
             </div>
 
 
@@ -40,7 +57,8 @@
                 <span>
                     <ion-icon name="mail"></ion-icon>
                 </span>
-                <a href="#">info@flyhighglobalservices.com</a>
+                <a
+                    href="mailto:ombhatia1986@gmail.com?&subject=Hey There, I am a user from your website.">ombhatia1986@gmail.com</a>
             </div>
         </section>
 
@@ -66,14 +84,13 @@
         </section>
     </header>
 
-
     <!-- MAIN SECTION -->
     <main>
         <!-- FIRST SECTION -->
         <section class="first__section">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 mx-auto first_sec_text_col">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 mx-auto first_sec_text_col wow fadeInRight">
                         <h1>BPO & Market Research Company</h1>
                         <p>Our vast experience in market research & BPO services made us specialist in retail research
                             services.</p>
@@ -83,10 +100,60 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 mx-auto first_sec_image_col">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 mx-auto first_sec_image_col wow fadeInLeft">
                         <img src="./public/images/img1.gif" class="img-fluid" alt="demo image">
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- FOURTH SECTION -->
+        <section class="fourth__section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 mx-auto fourth_sec_image_box wow rollIn">
+                        <img src="./public/images/img2.gif" class="img-fluid fourth_sec_img" alt="Outbound Services">
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 mx-auto fourth_sec_text wow zoomInRight">
+                        <h2>Outbound Services</h2>
+                        <p>We take hassle out of sales so you can focus on what you do best – improve your product. We
+                            have helped clients drive incremental revenue, grow accounts, and gain loyal customers with
+                            our amazing sales process outsourcing teams</p>
+                        <div><a href="#" class="sec_btn_on_white">Know More</a></div>
+                    </div>
+                </div>
+
+                <div class="row more____up">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 mx-auto fourth_sec_text wow fadeInLeftBig">
+                        <h2>Banking Process Management</h2>
+                        <p>Hiring at scale and with efficiency is one of the pain points for most organizations. Embrace
+                            flexibility and productivity with our excellent contract staffing services.
+                        </p>
+                        <div><a href="#" class="sec_btn_on_white">Know More</a></div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 mx-auto fourth_sec_image_box wow fadeInRightBig">
+                        <img src="./public/images/img3.gif" class="img-fluid fourth_sec_img" alt="Outbound Services">
+                    </div>
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 mx-auto fourth_sec_image_box wow fadeInUpBig">
+                        <img src="./public/images/img4.gif" class="img-fluid fourth_sec_img" alt="Outbound Services">
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 mx-auto fourth_sec_text wow wow fadeInUpBig">
+                        <h2>Customer Experience Management</h2>
+                        <p>No matter how tech driven you are, a human touch is must for your business. Get that human
+                            touch with our flexible inbound and outbound call centre solutions.</p>
+                        <div><a href="#" class="sec_btn_on_white">Know More</a></div>
+                    </div>
+                </div>
+
+
             </div>
         </section>
 
@@ -96,7 +163,7 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3 mx-auto second_sec_card">
+                    <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3 mx-auto second_sec_card wow fadeInRight">
                         <div class="service__cards">
                             <div class="iconBox">
                                 <ion-icon name="call" class="ionIcon"></ion-icon>
@@ -123,16 +190,16 @@
                                 <li class="services_points">
                                     <ion-icon name="checkmark-circle" class="ioncheckMark"></ion-icon>Direct Sales
                                 </li>
-                                <li class="services_points">
+                                <!-- <li class="services_points">
                                     <ion-icon name="checkmark-circle" class="ioncheckMark"></ion-icon>SMS & WhatsApp
                                     Campaign Sales
-                                </li>
+                                </li> -->
                             </ul>
-                            <span> <a href="#" class="sec_btn_on_white">Read More</a></span>
+                            <span> <a href="./outboundservices.html" class="sec_btn_on_white">Read More</a></span>
                         </div>
                     </div>
 
-                    <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3 mx-auto second_sec_card">
+                    <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3 mx-auto second_sec_card wow fadeInUp">
                         <div class="service__cards">
                             <div class="iconBox">
                                 <ion-icon name="people" class="ionIcon"></ion-icon>
@@ -160,11 +227,11 @@
                                     Calls
                                 </li>
                             </ul>
-                            <span><a href="#" class="sec_btn_on_white">Read More</a></span>
+                            <span><a href="./bankingprocess.html" class="sec_btn_on_white">Read More</a></span>
                         </div>
                     </div>
 
-                    <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3 mx-auto second_sec_card">
+                    <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3 mx-auto second_sec_card wow fadeInLeft">
                         <div class="service__cards">
                             <div class="iconBox">
                                 <ion-icon name="accessibility" class="ionIcon"></ion-icon>
@@ -188,14 +255,13 @@
                                     Monitoring
                                 </li>
                             </ul>
-                            <span> <a href="#" class="sec_btn_on_white">Read More</a></span>
+                            <span> <a href="./customerexperience.html" class="sec_btn_on_white">Read More</a></span>
                         </div>
                     </div>
 
                 </div>
             </div>
         </section>
-
 
         <!-- THIRD SECTION -->
         <section class="third__section">
@@ -244,38 +310,113 @@
             </div>
         </section>
 
-
         <!-- FIFTH SECTION -->
         <section class="fifth__section">
+            <h2 class="section__heading wow fadeInDown">Testimonials</h2>
             <div class="container">
-                <div class="row">
-                    <div class="col">
+                <div class="row wow fadeInDown">
+                    <div class="col-12 col-xl-12 mx-auto">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item team_card">
+                                <div class="team_card_manager">
+                                    <div class="img__bx">
+                                        <img src="https://api.uifaces.co/our-content/donated/6MWH9Xi_.jpg"
+                                            alt="member" />
+                                    </div>
 
-                    </div>
-                </div>
-            </div>
-        </section>
+                                    <div class="starts__box">
+                                        <ion-icon name="star" class="star_icon"></ion-icon>
+                                        <ion-icon name="star" class="star_icon"></ion-icon>
+                                        <ion-icon name="star" class="star_icon"></ion-icon>
+                                        <ion-icon name="star" class="star_icon"></ion-icon>
+                                        <ion-icon name="star" class="star_icon"></ion-icon>
+                                    </div>
 
+                                    <div class="text__cnt">
+                                        <h4>Mahesh Mishra</h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero earum possimus
+                                            quis illo nam, voluptatibus.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
 
-        <!-- SIXTH SECTION -->
-        <section class="sixth__section">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
+                            <div class="item team_card">
+                                <div class="team_card_manager">
+                                    <div class="img__bx">
+                                        <img src="https://api.uifaces.co/our-content/donated/rSuiu_Hr.jpg"
+                                            alt="member" />
+                                    </div>
 
-                    </div>
-                </div>
-            </div>
-        </section>
+                                    <div class="starts__box">
+                                        <ion-icon name="star" class="star_icon"></ion-icon>
+                                        <ion-icon name="star" class="star_icon"></ion-icon>
+                                        <ion-icon name="star" class="star_icon"></ion-icon>
+                                        <ion-icon name="star" class="star_icon"></ion-icon>
+                                        <ion-icon name="star" class="star_icon"></ion-icon>
+                                    </div>
 
+                                    <div class="text__cnt">
+                                        <h4>Raghav Desai</h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero earum possimus
+                                            quis illo nam, voluptatibus.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
 
+                            <div class="item team_card">
+                                <div class="team_card_manager">
+                                    <div class="img__bx">
+                                        <img src="https://images.unsplash.com/photo-1520810627419-35e362c5dc07?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ"
+                                            alt="member" />
+                                    </div>
 
-        <!-- FOURTH SECTION -->
-        <section class="fourth__section">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
+                                    <div class="starts__box">
+                                        <ion-icon name="star" class="star_icon"></ion-icon>
+                                        <ion-icon name="star" class="star_icon"></ion-icon>
+                                        <ion-icon name="star" class="star_icon"></ion-icon>
+                                        <ion-icon name="star" class="star_icon"></ion-icon>
+                                        <ion-icon name="star" class="star_icon"></ion-icon>
+                                    </div>
 
+                                    <div class="text__cnt">
+                                        <h4>Disha Tripathy</h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero earum possimus
+                                            quis illo nam, voluptatibus.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item team_card">
+                                <div class="team_card_manager">
+                                    <div class="img__bx">
+                                        <img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=d5849d81af587a09dbcf3f11f6fa122f"
+                                            alt="member" />
+                                    </div>
+
+                                    <div class="starts__box">
+                                        <ion-icon name="star" class="star_icon"></ion-icon>
+                                        <ion-icon name="star" class="star_icon"></ion-icon>
+                                        <ion-icon name="star" class="star_icon"></ion-icon>
+                                        <ion-icon name="star" class="star_icon"></ion-icon>
+                                        <ion-icon name="star" class="star_icon"></ion-icon>
+                                    </div>
+
+                                    <div class="text__cnt">
+                                        <h4>Ayesha Parween</h4>
+                                        <p>
+                                            I just thought I would thank you for all the work and I
+                                            really appreciate all the work.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -287,13 +428,96 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-11 col-sm-12 col-md-6 col-lg-4 footer_col wow fadeInRight">
+                    <div class="footer_logo_box">
+                        <img src="./public/images/logo.png" class="footer__logo" alt="logo" />
+                    </div>
+                    <div class="company__main_details">
+                        <h2>
+                            <span>
+                                <ion-icon name="call" class="fontAwesomeIcon"></ion-icon>
+                            </span>
+                            <a href="tel:+91 9211064418">9211064418</a>
+                        </h2>
 
+                        <h2>
+                            <span>
+                                <ion-icon name="mail" class="fontAwesomeIcon"></ion-icon>
+                            </span>
+                            <a
+                                href="mailto:ombhatia1986@gmail.com?&subject=Hey There, I am a user from your website.">ombhatia1986@gmail.com</a>
+                        </h2>
+
+
+                        <h2>
+                            <span>
+                                <ion-icon name="location" class="fontAwesomeIcon"></ion-icon>
+                            </span>
+                            <a target="_blank"
+                                href="https://www.google.co.in/maps/search/Reg.+Office+-+B-53+Basement,+New+Krishna+Park+New+Delhi+110018/@28.6297156,77.0736154,17z"
+                                style="line-height: 1.5">Reg. Office - B-53 Basement, New Krishna Park New Delhi
+                                110018</a>
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="col-11 col-sm-12 col-md-6 col-lg-4 footer_col_1 wow fadeInDown">
+                    <h3>Quick Links</h3>
+                    <div class="footer_col_1_inner">
+                        <div class="footer_inner_col__1__items">
+                            <span>
+                                <ion-icon name="caret-forward-outline" class="fontAwesomeIcon"></ion-icon>
+                            </span>
+                            <a href="./about.html">About Us</a>
+                        </div>
+
+                        <div class="footer_inner_col__1__items">
+                            <span>
+                                <ion-icon name="caret-forward-outline" class="fontAwesomeIcon"></ion-icon>
+                            </span>
+                            <a href="#">Services</a>
+                        </div>
+
+                        <div class="footer_inner_col__1__items">
+                            <span>
+                                <ion-icon name="caret-forward-outline" class="fontAwesomeIcon"></ion-icon>
+                            </span>
+                            <a href="./contact.html">Contact Us</a>
+                        </div>
+
+                        <div class="footer_inner_col__1__items">
+                            <span>
+                                <ion-icon name="caret-forward-outline" class="fontAwesomeIcon"></ion-icon>
+                            </span>
+                            <a href="#">Terms & Conditions</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-11 col-sm-12 col-md-6 col-lg-4 footer_col_1 wow fadeInLeft">
+                    <h3>Connect with us</h3>
+                    <div class="All_social_media_box">
+                        <span><a href="#" target="_blank">
+                                <ion-icon name="logo-linkedin" class="fontAwesomeIcon"></ion-icon>
+                            </a></span>
+
+                        <span><a href="#" target="_blank">
+                                <ion-icon name="logo-instagram" class="fontAwesomeIcon"></ion-icon>
+                            </a></span>
+
+                        <span><a href="#" target="_blank">
+                                <ion-icon name="logo-whatsapp" class="fontAwesomeIcon"></ion-icon>
+                            </a></span>
+
+                    </div>
                 </div>
             </div>
         </div>
+        <p class="copyright_paragraph">
+            Copyright &copy; 2022 Confirmative Solutions | All Rights Reserved by Confirmative Solutions!
+        </p>
     </footer>
-
 
 
     <!-- ION ICONS LINK -->
@@ -305,8 +529,14 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 
+    <!-- WOW JS INITIALIZATION FUNCTION -->
+    <script>
+        new WOW().init();
+    </script>
+
     <!-- CUSTOM JAVASCRIPT -->
     <script src="./public/js/script.js"></script>
+    <script src="./public/js/carousel.js"></script>
 </body>
 
 </html>
