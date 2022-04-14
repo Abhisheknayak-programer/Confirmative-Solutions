@@ -498,18 +498,84 @@ a {
   color: var(--white-color);
 }
 
-/************************/
-/* SIXTH SECTION CSS */
-/************************/
-
-/*********************************/
-/* SIXTH SECTION MEDIA QUERIES */
 /********************************/
-
-/************************/
-/* SEVENTH SECTION CSS */
-/************************/
-
-/*********************************/
-/* SEVENTH SECTION MEDIA QUERIES */
+/* OUTBOUND SERVICE SECTION CSS */
 /********************************/
+.service_section {
+  padding-top: var(--mid-padding);
+}
+
+.service_sec_text p {
+  color: var(--para-color);
+  font-size: 2rem;
+  text-align: justify;
+}
+
+.service_sec_image img {
+  width: 80%;
+}
+
+.service_sec_text,
+.service_sec_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/************************/
+/* ABOUT SECTION CSS */
+/************************/
+.about_section {
+  padding: var(--mid-padding) 0;
+}
+
+.about_sec_text p {
+  color: var(--para-color);
+  font-size: 2rem;
+  text-align: justify;
+}
+
+.about_sec_image img {
+  width: 80%;
+}
+
+.about_sec_text,
+.about_sec_image {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about_sec_image {
+  align-items: center;
+}
+
+.buttons__box_container {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+/*****************************/
+/* ABOUT NESTED SECTION CSS */
+/*****************************/
+.about_nested_section {
+  padding-bottom: 0;
+}
+
+.about_nested_section p {
+  text-align: start;
+}
+
+.take__up {
+  position: relative;
+  top: -10vh;
+}
+
+@media (max-width: 992px) {
+  .hi {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
