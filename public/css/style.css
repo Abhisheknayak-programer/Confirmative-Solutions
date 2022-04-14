@@ -573,9 +573,51 @@ a {
   top: -10vh;
 }
 
-@media (max-width: 992px) {
-  .hi {
-    display: flex;
-    flex-direction: column-reverse;
-  }
+/*******************************/
+/* INFRASTRUCTURE SECTION CSS */
+/*******************************/
+.infrastructure_section {
+  padding-top: var(--mid-padding);
+}
+
+.infrastructure_section_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.infrastructure_section_text p {
+  font-family: var(--font-3);
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.infrastructure_section_img {
+  overflow: hidden;
+}
+
+.infrastructure_img {
+  width: 80%;
+  position: relative;
+  top: -15vh;
+}
+
+.gallery__row {
+  padding-bottom: 3rem;
+}
+
+.image_gallery_card {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.gallery_image {
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.gallery_image:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
