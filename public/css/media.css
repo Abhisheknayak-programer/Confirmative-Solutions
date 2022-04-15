@@ -135,6 +135,23 @@
 /*********************************/
 /* FIRST SECTION MEDIA QUERIES */
 /********************************/
+@media (min-height: 1200px) {
+  .first_sec_image_col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .first_sec_image_col img {
+    margin-bottom: 5rem;
+  }
+}
+
+@media (min-height: 2000px) {
+  .first_sec_image_col img {
+    margin-bottom: 10rem;
+  }
+}
+
 @media (max-width: 1200px) {
   .first_sec_text_col h1 {
     font-size: 5rem;
@@ -545,5 +562,26 @@
   }
   .infrastructure_section_text p {
     font-size: 1.6rem;
+  }
+}
+
+@media (min-height: 800px) {
+  .infrastructure_img {
+    top: -12vh;
+  }
+}
+
+@media (min-height: 1000px) {
+  .infrastructure_img {
+    top: -10vh;
+  }
+}
+
+@media (max-width: 1500px) {
+  .infrastructure_section_text {
+    top: -1vh;
+  }
+  .infrastructure_img {
+    top: -4vh;
   }
 }
