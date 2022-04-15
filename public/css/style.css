@@ -101,8 +101,12 @@ a {
   box-shadow: var(--shadow);
 }
 
-.logo_container .logo {
+.logo_container {
   width: 50%;
+}
+
+.logo_container .logo {
+  width: 40%;
 }
 
 .nav {
@@ -433,7 +437,8 @@ a {
 /* FOOTER SECTION CSS */
 /************************/
 .footer {
-  background-color: var(--nude-color);
+  /* background-color: var(--nude-color); */
+  background-color: var(--text-dark-color);
   color: var(--white-color);
   padding: 4rem 0;
   padding-bottom: 1rem;
@@ -589,18 +594,20 @@ a {
 
 .infrastructure_section_text p {
   font-family: var(--font-3);
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 600;
 }
 
 .infrastructure_section_img {
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .infrastructure_img {
-  width: 80%;
   position: relative;
-  top: -15vh;
+  top: -10vh;
 }
 
 .gallery__row {
@@ -621,3 +628,4 @@ a {
   transform: scale(1.1);
   cursor: pointer;
 }
+
