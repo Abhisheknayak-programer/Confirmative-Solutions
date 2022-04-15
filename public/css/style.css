@@ -562,6 +562,29 @@ a {
   justify-content: space-between;
 }
 
+.branches_section {
+  padding: var(--mid-padding) 0;
+}
+
+.branches__card {
+  box-shadow: var(--shadow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.branches__card p {
+  font-size: 1.4rem;
+  font-family: var(--font-3);
+}
+
+.branches__card p:first-child {
+  font-weight: 600;
+}
+
 /*****************************/
 /* ABOUT NESTED SECTION CSS */
 /*****************************/
@@ -629,3 +652,75 @@ a {
   cursor: pointer;
 }
 
+/************************/
+/* CONTACT SECTION CSS */
+/************************/
+.contact_section {
+  padding: var(--mid-padding) 0;
+}
+
+.contact_section .section__heading {
+  padding-bottom: 0;
+}
+
+.contact_sub_heading {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.contact_Left_side_col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact_Left_side_col form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form__items {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.form__items input {
+  outline: none;
+  border: none;
+  text-align: center;
+  border-bottom: 1px dashed var(--text-dark-color);
+  background-color: transparent;
+  font-size: 1.5rem;
+}
+
+.form__items span {
+  font-size: 1.6rem;
+}
+
+.form__items label {
+  font-size: 2rem;
+}
+
+.form_btn {
+  border: none;
+  background-color: var(--nude-color);
+  color: var(--white-color);
+  padding: 0.5rem 3rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border: 2px solid var(--nude-color);
+  border-radius: 20px;
+}
+
+.form_btn:hover {
+  background-color: transparent;
+  color: var(--text-color);
+}
