@@ -535,6 +535,11 @@ a {
   padding: var(--mid-padding) 0;
 }
 
+.about_section .hyper__link {
+  color: var(--nude-color);
+  font-weight: 600;
+}
+
 .about_sec_text p {
   color: var(--para-color);
   font-size: 2rem;
@@ -723,4 +728,42 @@ a {
 .form_btn:hover {
   background-color: transparent;
   color: var(--text-color);
+}
+
+/************************/
+/* GALLERY SECTION CSS */
+/************************/
+.gallery__section_carousel .item img {
+  height: 50vh;
+}
+
+.gallery__section {
+  padding: var(--mid-padding) 0;
+}
+
+.gallery__section .section__heading {
+  margin-bottom: 2rem;
+}
+
+.gallery__section .row {
+  padding-bottom: 5rem;
+}
+
+.gallery__image__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.gallery__image__box img {
+  height: 400px;
+  width: 95%;
+  transition: all 0.3s ease;
+  border-radius: 20px;
+}
+
+.gallery__image__box img:hover {
+  transform: scale(1.15);
+  cursor: pointer;
 }

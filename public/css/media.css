@@ -656,3 +656,40 @@
     padding-top: 0;
   }
 }
+
+/*********************************/
+/* GALLERY SECTION MEDIA QUERIES */
+/*********************************/
+@media (max-width: 1200px) {
+  .gallery__image__box img {
+    height: 350px;
+  }
+}
+
+@media (max-width: 992px) {
+  .gallery__image__box img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery__image__box img {
+    margin-bottom: 5rem;
+  }
+
+  .gallery__section .row {
+    padding-bottom: 0rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .gallery__image__box img {
+    height: 250px;
+  }
+}
+
+@media (max-width: 360px) {
+  .gallery__image__box img {
+    height: 200px;
+  }
+}
